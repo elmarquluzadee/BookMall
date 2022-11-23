@@ -1,0 +1,44 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.main-nav {
+    box-sizing: border-box;
+    height: 90vh;
+    background: url(./img/Screenshot_20221123-112457_Instagram.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+}
+
+.logo-item {
+    color: aliceblue;
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+}
+
+.redirection-item a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 10px;
+}
+
+.logo-items i {
+    color: rgb(240, 181, 105);
+    font-size: 30px;
+}
