@@ -14,7 +14,7 @@ li {
 
 .main-nav {
     box-sizing: border-box;
-    height: 100vh;
+    height: 90vh;
     background: url(./img/Screenshot_20221123-112457_Instagram.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,7 +36,7 @@ li {
 .redirection-item a {
     text-decoration: none;
     color: aliceblue;
-    margin-right: 10px;
+
 }
 
 .logo-items i {
@@ -62,4 +62,17 @@ li {
 .card a:hover {
     background-color: rgb(10, 70, 5) !important;
     color: aliceblue;
+}
+
+.main-item {
+    background-color: #EFF5F5;
+}
+
+.down-icon {
+    font-size: 50px;
+}
+
+.main-cards img {
+    height: 300px;
+    border-radius: 15px;
 }
