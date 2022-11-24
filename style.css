@@ -12,16 +12,23 @@ li {
     list-style: none;
 }
 
+.back-op {
+    background-color: #eff5f521;
+}
+
 .main-nav {
+
     box-sizing: border-box;
-    height: 90vh;
-    background: url(./img/Screenshot_20221123-112457_Instagram.jpg);
+    height: 95vh;
+    background: url(./img/93d40b08ee0d5a2988e5cc487c580b7a.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    z-index: -1;
 }
 
 .navbar {
+
     position: sticky;
     top: 0;
     z-index: 2;
@@ -75,4 +82,20 @@ li {
 .main-cards img {
     height: 300px;
     border-radius: 15px;
+    border: 2px solid rgb(10, 70, 5);
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.footer-icon i {
+    font-size: 25px;
+}
+
+.footer-icon i:hover {
+    background-color: cadetblue;
 }
