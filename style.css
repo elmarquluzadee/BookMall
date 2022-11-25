@@ -20,15 +20,15 @@ li {
     list-style: none;
 }
 
-.back-op {
-    background-color: #eff5f521;
-}
+/* .back-op {
+    background-color: #eff5f580;
+} */
 
 .main-nav {
 
     box-sizing: border-box;
     height: 90vh;
-    background: url(./img/book-mall-logo.jpg);
+    background: url(./img/header-display.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -135,4 +135,37 @@ li {
     border-bottom: 1px solid steelblue;
     border-top: 1px solid steelblue;
 
+}
+
+.my-b-color {
+    background-color: #0f3da0;
+}
+
+.my-b-color :hover {
+    background-color: #000000 !important;
+
+}
+
+.book-list img {
+    height: 70vh;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 5px;
+}
+
+.book-list h2 {
+    border-bottom: 1px solid black;
+}
+
+.book-list {
+    margin: 20px;
+
+}
+
+.book-information {
+    border-top: 2px solid black;
+}
+
+.active {
+    color: #FEA82F;
 }
