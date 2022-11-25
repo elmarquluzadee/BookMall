@@ -8,6 +8,14 @@ a {
     text-decoration: none;
 }
 
+.logo-item {
+    color: #285430 !important;
+}
+
+.navbar {
+    background-color: #edf5e8;
+}
+
 li {
     list-style: none;
 }
@@ -20,10 +28,20 @@ li {
 
     box-sizing: border-box;
     height: 90vh;
-    background: url(./img/header-display.jpg);
+    background: url(./img/book-mall-logo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    z-index: -1;
+}
+
+.main-nav-book {
+    box-sizing: border-box;
+    height: 70vh;
+    background: url(./img/book-header\(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
     z-index: -1;
 }
 
@@ -42,12 +60,17 @@ li {
 
 .redirection-item a {
     text-decoration: none;
-    color: aliceblue;
+    font-weight: 500;
+
+}
+
+.redirection-item a:hover {
+    color: #EC7272;
 
 }
 
 .logo-items i {
-    color: rgb(240, 181, 105);
+    color: #EC7272;
     font-size: 30px;
 }
 
@@ -67,7 +90,7 @@ li {
 }
 
 .card a:hover {
-    background-color: rgb(10, 70, 5) !important;
+    background-color: rgb(221, 223, 221) !important;
     color: aliceblue;
 }
 
@@ -83,7 +106,7 @@ li {
     font-size: 50px;
     background-color: rgb(230, 231, 231);
     margin: 0;
-    border-bottom: 2px solid blue;
+    height: 10vh;
 }
 
 .main-cards img {
