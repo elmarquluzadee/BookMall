@@ -69,3 +69,29 @@
 
     justify-content: center;
 }
+
+.navbar-nav a {
+    color: aliceblue;
+}
+
+.navbar-nav li {
+    width: 30%;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(196, 123, 27);
+}
+
+.navbar-nav li:hover {
+
+    background-color: rgb(88, 53, 6);
+}
+
+.book-list .navbar-brand {
+    color: rgb(88, 55, 233);
+
+    font-weight: 700;
+}
