@@ -92,6 +92,23 @@
 
 .book-list .navbar-brand {
     color: rgb(88, 55, 233);
-
     font-weight: 700;
+}
+
+.down-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redirection-item a {
+    color: aliceblue;
+}
+
+.my-btn-outline-info {
+    background-color: burlywood;
+}
+
+.my-btn-outline-info:hover {
+    background-color: rgb(199, 116, 7);
 }
