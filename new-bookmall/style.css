@@ -1,0 +1,130 @@
+ /* main page  */
+ body {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ .navbar-position {
+     position: sticky;
+     top: 0;
+     z-index: 2;
+ }
+
+ .logo-navbar {
+     background-color: #edf5e8;
+ }
+
+ .navbar-down {
+     background-color: #EC7272;
+ }
+
+ .redirection-item a {
+     color: rgb(255, 255, 255);
+
+
+ }
+
+ .redirection-item a:hover {
+     color: rgb(0, 0, 0);
+
+     transition: .4s;
+ }
+
+ .main-nav {
+     box-sizing: border-box;
+     height: 90vh;
+     background: url(../Photos-001/1.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     z-index: -1;
+ }
+
+ .down-icon {
+     font-size: 50px;
+     background-color: rgb(230, 231, 231);
+     margin: 0;
+     height: 10vh;
+ }
+
+ .logo-items i {
+     color: #EC7272;
+     font-size: 30px;
+ }
+
+ .back-op {
+     background-color: #ffffff1e;
+ }
+
+
+
+ li {
+     list-style: none;
+ }
+
+
+ a {
+     text-decoration: none;
+ }
+
+ .logo-item {
+     color: #285430 !important;
+ }
+
+ .logo-item {
+     color: aliceblue;
+     font-family: 'Anton', sans-serif;
+     margin: 0;
+ }
+
+
+
+ /* book page */
+
+ .fa-book-open {
+     color: #ffffff;
+     font-size: 25px;
+ }
+
+ .fa-book-open:hover {
+     color: #0D4C92;
+     transition: .6s;
+ }
+
+ /* footer */
+
+
+ .footer-icon i {
+     font-size: 25px;
+ }
+
+ .footer-icon i:hover {
+     background-color: cadetblue;
+ }
+
+ .span-text {
+     border-bottom: 1px solid steelblue;
+     border-top: 1px solid steelblue;
+
+ }
+
+ .res-nav {
+     display: none;
+ }
+
+ @media(max-width:600px) {
+     .redirection-item {
+         display: none !important;
+     }
+
+     .res-nav {
+         display: block;
+     }
+
+
+ }
+
+ .active {
+     transform: none;
+ }
