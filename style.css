@@ -1,151 +1,157 @@
-body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+ /* main page  */
+ body {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
 
-a {
-    text-decoration: none;
-}
+ .navbar-position {
+     position: sticky;
+     top: 0;
+     z-index: 2;
+ }
 
-.logo-item {
-    color: #285430 !important;
-}
+ .logo-navbar {
+     background-color: #edf5e8;
+ }
 
-.navbar {
-    background-color: #edf5e8;
-}
+ .navbar-down {
+     background-color: #EC7272;
+ }
 
-li {
-    list-style: none;
-}
+ .redirection-item a {
+     color: rgb(255, 255, 255);
 
-/* .back-op {
-    background-color: #eff5f580;
-} */
 
-.main-nav {
+ }
 
-    box-sizing: border-box;
-    height: 90vh;
-    background: url(./img/header-display.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
-}
+ .redirection-item a:hover {
+     color: rgb(0, 0, 0);
 
-.main-nav-book {
-    box-sizing: border-box;
-    height: 70vh;
-    background: url(./img/book-header\(1\).jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-    z-index: -1;
-}
+     transition: .4s;
+ }
 
-.navbar {
+ .main-nav {
+     box-sizing: border-box;
+     height: 90vh;
+     background: url(../Photos-001/1.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     z-index: -1;
+ }
 
-    position: sticky;
-    top: 0;
-    z-index: 2;
-}
+ .down-icon {
+     font-size: 50px;
+     background-color: rgb(230, 231, 231);
+     margin: 0;
+     height: 10vh;
+ }
 
-.logo-item {
-    color: aliceblue;
-    font-family: 'Anton', sans-serif;
-    margin: 0;
-}
+ .logo-items i {
+     color: #EC7272;
+     font-size: 30px;
+ }
 
-.redirection-item a {
-    text-decoration: none;
-    font-weight: 500;
-
-}
-
-.redirection-item a:hover {
-    color: #EC7272;
-
-}
-
-.logo-items i {
-    color: #EC7272;
-    font-size: 30px;
-}
-
-.card {
-    background-color: #faf5e4e0 !important;
-    border-radius: 10px;
-}
-
-.card-title {
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-}
-
-.card a {
-    color: aliceblue;
-
-}
-
-.card a:hover {
-    background-color: rgb(221, 223, 221) !important;
-    color: aliceblue;
-}
-
-.main-item {
-    background-color: #fff;
-    margin-left: 10px;
-    margin-right: 10px;
-}
+ .back-op {
+     background-color: #ffffff50;
+ }
 
 
 
-.down-icon {
-    font-size: 50px;
-    background-color: rgb(230, 231, 231);
-    margin: 0;
-    height: 10vh;
-}
-
-.main-cards img {
-    height: 300px;
-    border-radius: 15px;
-    /* border: 2px solid rgb(70, 71, 70); */
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
-
-.footer-item {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+ li {
+     list-style: none;
+ }
 
 
-.footer-icon i {
-    font-size: 25px;
-}
+ a {
+     text-decoration: none;
+ }
 
-.footer-icon i:hover {
-    background-color: cadetblue;
-}
+ .logo-item {
+     color: #285430 !important;
+ }
 
-.span-text {
-    border-bottom: 1px solid steelblue;
-    border-top: 1px solid steelblue;
+ .logo-item {
+     color: aliceblue;
+     font-family: 'Anton', sans-serif;
+     margin: 0;
+ }
 
-}
 
-.my-b-color {
-    background-color: #0f3da0;
-}
 
-.my-b-color :hover {
-    background-color: #000000 !important;
+ /* book page */
 
-}
+ .fa-book-open {
+     color: #ffffff;
+     font-size: 25px;
+ }
 
-.active {
-    color: #FEA82F;
-}
+ .fa-book-open:hover {
+     color: #0D4C92;
+     transition: .6s;
+ }
+
+ /* footer */
+
+
+ .footer-icon i {
+     font-size: 25px;
+ }
+
+ .footer-icon i:hover {
+     background-color: cadetblue;
+ }
+
+ .span-text {
+     border-bottom: 1px solid steelblue;
+     border-top: 1px solid steelblue;
+
+ }
+
+ .res-nav {
+     display: none;
+ }
+
+ @media(max-width:600px) {
+     .redirection-item {
+         display: none !important;
+     }
+
+     .res-nav {
+         display: block;
+     }
+ }
+
+ .res-nav-bg {
+     background-color: #EFF5F5;
+ }
+
+ .res-nav-bg ul {
+     background-color: #3469691c;
+     margin-top: 10px;
+ }
+
+ .res-nav-bg ul li {
+     border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+     border-top: 1px solid rgba(0, 0, 0, 0.199);
+ }
+
+ .res-nav-bg ul li:hover {
+     background-color: #474e68;
+     color: #ffffff !important;
+
+ }
+
+ .res-nav-bg ul li a {
+
+     color: #000000;
+
+ }
+
+
+ .res-nav-bg ul li a:hover {
+
+     color: #ffffff;
+
+ }
