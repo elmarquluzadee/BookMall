@@ -58,9 +58,7 @@
      align-items: center;
  }
 
- .menu .row {
-     margin-top: 50px;
- }
+
 
  .menu .col-md-4 {
      margin-top: 10px;
@@ -180,13 +178,23 @@
      display: none;
  }
 
- @media(max-width:600px) {
+ @media(max-width:766px) {
      .redirection-item {
          display: none !important;
      }
 
      .res-nav {
          display: block;
+     }
+
+     .my-card i {
+
+         font-size: 30px;
+     }
+
+     .menu .my-cards {
+         margin-top: 5px !important;
+         margin-bottom: 5px !important;
      }
  }
 
