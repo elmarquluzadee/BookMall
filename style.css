@@ -112,6 +112,20 @@
      background-color: #ffffff13;
  }
 
+ .redirection-item {
+     display: flex;
+     align-items: center;
+     margin: 0px 20px 0px 0px !important;
+ }
+
+ .redirection-item a {
+     background-color: #f85858;
+ }
+
+ .redirection-item a:hover {
+     background-color: #bb3c3c;
+     color: #fff;
+ }
 
 
  li {
@@ -133,29 +147,27 @@
      margin: 0;
  }
 
-
-
  /* book page */
-
  .fa-book-open {
      color: #ffffff;
-     font-size: 25px;
+     font-size: 20px;
+ }
+
+ .fa-book-open:hover {
+     color: #000000;
+     transition: .6s;
  }
 
  .navbar-down .fa-utensils {
      color: #ffffff;
-     font-size: 25px;
+     font-size: 20px;
  }
 
  .navbar-down .fa-utensils:hover {
-     color: #0D4C92;
+     color: #000000;
      transition: .6s;
  }
 
- .fa-book-open:hover {
-     color: #0D4C92;
-     transition: .6s;
- }
 
  /* footer */
 
