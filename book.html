@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+    <link rel="icon" href="./logo-img/logo-0.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BookMall</title>
-    <link rel="icon" href="./logo-img/logo-0.png">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
@@ -16,70 +15,112 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=League+Gothic&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./book-style.css">
 </head>
 
 <body>
+    <!DOCTYPE html>
+    <html lang="en">
 
-    <header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BookMall</title>
+        <link rel="icon" href="./logo-img/logo-0.png">
+        <!-- CSS only -->
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=League+Gothic&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+
+    </head>
+
+    <body>
         <nav class="main-nav-book ">
-            <div class=" h-100">
-                <nav class="navbar  d-flex ">
-                    <div class=" w-100 d-flex justify-content-around align-items-center">
-                        <div><a href="./index.html" class="logo-items d-flex justify-content-center">
-                                <h2 class="logo-item">Book <i class="fa-solid fa-mug-saucer"></i>
-                                    Mall</h2>
-                            </a>
+            <div class="back-op h-100">
+                <div class="navbar-position">
+                    <nav class=" logo-navbar navbar">
+                        <!-- Navbar content -->
+                        <div class=" w-100 d-flex justify-content-around align-items-center">
+                            <div><a href="./index.html" class="logo-items d-flex justify-content-center">
+                                    <h2 class="logo-item">Book <i class="fa-solid fa-mug-saucer"></i>
+                                        Mall</h2>
+                                </a>
+                            </div>
                         </div>
+                    </nav>
+                    <nav class="navbar navbar-down">
+                        <div class=" w-100 d-flex justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <ul class="m-0 p-0 d-flex justify-content-center align-items-center">
+                                    <li><a class="mx-3" href=""><i class="fa-solid fa-book-open"></i></a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="redirection-item m-0 d-flex ">
+                                    <li><a class="btn mx-2" href="">Əyləncə</a></li>
+                                    <li><a class="btn mx-2" href="./book.html">Kiablar</a></li>
+                                    <li><a class="btn mx-2" href="">Fəaliyyət</a></li>
+                                </ul>
 
-                    </div>
-                </nav>
-            </div>
-            <div class=" navbar bg-primary down-nav">
-                <ul class="redirection-item m-0 d-flex ">
-                    <li><a class="btn  mx-2" href="">Əyləncə</a></li>
-                    <li><a class="btn  mx-2" href="./book.html">Kiablar</a></li>
-                    <li><a class="btn  mx-2" href="">Fəaliyyət</a></li>
-                </ul>
+                                <div class="res-nav mx-2">
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="offcanvas offcanvas-end res-nav-bg" tabindex="-1" id="navbarOffcanvasLg"
+                                        aria-labelledby="navbarOffcanvasLgLabel">
+                                        <div>
 
-                <div>
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Recipient's username"
-                            aria-label="Recipient's username" aria-describedby="button-addon2">
-                        <button class="btn my-btn-outline-info" type="button" id="button-addon2">Button</button>
-                    </div>
+                                        </div>
+                                        <ul class="p-4 w-100 ">
+                                            <li class="my-2 d-flex align-items-center justify-content-between"><i
+                                                    class="fa-solid fa-arrow-left-long"></i><a
+                                                    class="w-100 mx-2 d-flex justify-content-center" href="">Əyləncə</a>
+                                            </li>
+                                            <li class="my-2 d-flex align-items-center justify-content-between"><i
+                                                    class="fa-solid fa-arrow-left-long"></i><a
+                                                    class="w-100 mx-2 d-flex justify-content-center"
+                                                    href="">Kitablar</a>
+                                            </li>
+                                            <li class="my-2 d-flex align-items-center justify-content-between"><i
+                                                    class="fa-solid fa-arrow-left-long"></i><a
+                                                    class="w-100 mx-2 d-flex justify-content-center"
+                                                    href="">Fəaliyyət</a>
+                                            </li>
+
+                                            <button class="navbar-toggler w-100 my-4" type="button"
+                                                data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg"
+                                                aria-controls="navbarOffcanvasLg">
+                                                <!-- <h5>GERI</h5> -->
+                                                <i class="fa-solid fa-right-from-bracket"></i>
+                                            </button>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
             </div>
         </nav>
-    </header>
-
-
-
-
-    <footer class="card-footer">
-        <div class="footer-item row">
-            <ul class="d-flex m-0 my-2 justify-content-center">
-                <li><a class="mx-2 " href="">Məzmun</a></li>
-                <li><a class="mx-2 " href="">Əlaqə</a></li>
-                <li><a class="mx-2 " href="">Zamanlama</a></li>
-            </ul>
-            <ul class="d-flex footer-icon m-0 col-md-4 justify-content-center">
-                <li><a href=""><i class="btn fa-brands fa-facebook mx-2"></i></a></li>
-                <li><a href=""><i class="btn fa-brands fa-instagram mx-2"></i></a></li>
-                <li><a href=""><i class="btn fa-brands fa-twitter mx-2"></i></a></li>
-            </ul>
+        <div class="down-icon w-100 d-flex justify-content-center "><a href="#mainItem" class="d-flex"><i
+                    class="fa-solid fa-chevron-down"></i> </a>
         </div>
-        <div class="d-flex justify-content-center">
-            <div> <span>@ Elmar Guluzade, 2022</span></div>
-        </div>
-
-    </footer>
-
-
+    </body>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+
+    </html>
 </body>
 
 </html>

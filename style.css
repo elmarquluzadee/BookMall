@@ -31,7 +31,17 @@
      transition: .4s;
  }
 
- .main-nav {
+ .main-nav-coffe {
+     box-sizing: border-box;
+     height: 90vh;
+     background: url(./Photos-001/13.webp);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     z-index: -1;
+ }
+
+ .main-nav-book {
      box-sizing: border-box;
      height: 90vh;
      background: url(../Photos-001/1.jpg);
@@ -39,6 +49,13 @@
      background-size: cover;
      background-position: center;
      z-index: -1;
+ }
+
+
+ .menu {
+     height: 70vh;
+     display: flex;
+     align-items: center;
  }
 
  .down-icon {
@@ -54,7 +71,7 @@
  }
 
  .back-op {
-     background-color: #ffffff50;
+     background-color: #ffffff13;
  }
 
 
@@ -85,6 +102,16 @@
  .fa-book-open {
      color: #ffffff;
      font-size: 25px;
+ }
+
+ .navbar-down .fa-utensils {
+     color: #ffffff;
+     font-size: 25px;
+ }
+
+ .navbar-down .fa-utensils:hover {
+     color: #0D4C92;
+     transition: .6s;
  }
 
  .fa-book-open:hover {
