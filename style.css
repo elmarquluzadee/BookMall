@@ -192,6 +192,12 @@
      display: none;
  }
 
+ .section-item {
+     display: flex;
+ }
+
+
+
  @media(max-width:766px) {
      .redirection-item {
          display: none !important;
@@ -210,6 +216,15 @@
          margin-top: 5px !important;
          margin-bottom: 5px !important;
      }
+
+     .section-item {
+         display: block;
+     }
+ }
+
+
+ .section-item .card img {
+     height: auto;
  }
 
  .res-nav-bg {
