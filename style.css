@@ -17,6 +17,8 @@
 
  .navbar-down {
      background-color: #EC7272;
+     position: sticky;
+     top: 0;
  }
 
  .redirection-item a {
@@ -245,4 +247,9 @@
 
  .b-example-divider {
      border-top: 1px solid rgba(0, 0, 0, 0.445);
+ }
+
+ .container-food img {
+     width: 80%;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  }
