@@ -220,12 +220,13 @@
      .section-item {
          display: block;
      }
+
+
+
  }
 
 
- .section-item .row {
-     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
- }
+
 
  .res-nav-bg {
      background-color: #EFF5F5;
@@ -269,9 +270,8 @@
      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  }
 
- .book-section img {
-     height: 60vh;
- }
+
+
 
  .card-price {
      width: 100%;
@@ -297,7 +297,7 @@
 
  .card-price .fa-heart {
      font-size: 25px;
-     color: red;
+     color: rgb(0, 0, 0);
  }
 
  .card-star ul {
@@ -311,4 +311,8 @@
 
  .active-star {
      color: #FFCC1D;
+ }
+
+ .book-section img {
+     height: 55vh;
  }
