@@ -316,3 +316,33 @@
  .book-section img {
      height: 50vh;
  }
+
+ .card-surface {
+     position: absolute;
+
+ }
+
+ /* .card-surface a {
+     color: #48bb00;
+
+ } */
+
+ .card-surface-item {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     background-color: #0000008c;
+     height: 50px;
+ }
+
+ .card-surface .fa-cart-plus {
+     color: #38E54D;
+     font-size: 25px;
+     /* margin: 10px; */
+ }
+
+ .card-surface .fa-tags {
+     color: #2192FF;
+     font-size: 25px;
+     /* margin: 10px; */
+ }
