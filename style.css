@@ -314,7 +314,7 @@
  }
 
  .book-section img {
-     height: 50vh;
+     height: 40vh;
  }
 
  .card-surface {
@@ -322,10 +322,6 @@
 
  }
 
- /* .card-surface a {
-     color: #48bb00;
-
- } */
 
  .card-surface-item {
      width: 100%;
@@ -338,11 +334,11 @@
  .card-surface .fa-cart-plus {
      color: #38E54D;
      font-size: 25px;
-     /* margin: 10px; */
+
  }
 
  .card-surface .fa-tags {
      color: #2192FF;
      font-size: 25px;
-     /* margin: 10px; */
+
  }
