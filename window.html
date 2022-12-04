@@ -9,22 +9,19 @@
 </head>
 
 <body>
+
+    <button onclick="myFunction()">Try it</button>
     <script>
 
-        // var d = confirm('emin misiniz ?');
 
-        // if (d == true) {
-        //     console.log("tamam");
-        // }
 
-        val = window.location;
-        val = window.location.href;
+        function myFunction() {
+            var myWindow = window.open("", "", "width=200, height=100");
+            myWindow.blur();
+        }
 
 
 
-
-
-        console.log(val);
     </script>
 </body>
 
