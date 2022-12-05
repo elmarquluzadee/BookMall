@@ -1,6 +1,5 @@
 let row = document.querySelector(".book-section .row");
 
-
 class Books {
     constructor(title, name, img) {
         this.title = title;
@@ -17,10 +16,14 @@ const bookList = [
     new Books("book-4", "novelist-4", "4.jpg"),
     new Books("book-5", "novelist-5", "5.jpg"),
     new Books("book-6", "novelist-6", "6.jpg"),
-    new Books("book-7", "novelist-7", "7.jpg")
+    new Books("book-7", "novelist-7", "7.jpg"),
+    new Books("book-7", "novelist-7", "8.jpg"),
+    new Books("book-8", "novelist-5", "9.jpg"),
+    new Books("book-9", "novelist-6", "10.jpg"),
+    new Books("book-11", "novelist-7", "11.jpg"),
+    new Books("book-12", "novelist-7", "12.jpg")
 ];
 
-console.log(bookList[2]);
 
 class BookCount {
     constructor(bookList) {
@@ -41,7 +44,8 @@ function listDisplay() {
 
     for (let a of bookList) {
 
-        console.log(a)
+        console.log(a.img);
+
 
 
         let list = ` <div class="col">
@@ -52,10 +56,10 @@ function listDisplay() {
                     <a href="" class="m-2"><i class="fa-solid fa-cart-plus"></i></a>
                     </div>
                     </div>
-                    <img src="book/images.jpg" class="card-img-top" alt="...">
+                    <img src="book/${a.img}" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card </p>
+                    <h5 class="card-title">${a.title}</h5>
+                    <p class="card-text">${a.name}</p>
                     <div class="card-price">
                     <div class=" d-flex justify-content-around">
                     <div class="d-flex card-current-price">
