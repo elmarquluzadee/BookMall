@@ -110,6 +110,10 @@
      font-size: 30px;
  }
 
+ .logo-item {
+     font-weight: bold;
+ }
+
  .back-op {
      background-color: #ffffff13;
  }
@@ -341,4 +345,8 @@
      color: #2192FF;
      font-size: 25px;
 
+ }
+
+ .nav-plus i {
+     font-size: 20px;
  }

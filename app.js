@@ -46,7 +46,7 @@ function listDisplay() {
 
     for (let a of bookList) {
 
-        console.log(a.img);
+
 
 
 
@@ -54,8 +54,8 @@ function listDisplay() {
                      <div class="card">
                      <div class="card-surface w-100">
                      <div class="card-surface-item">
-                     <a   class="m-2"><i onclick="tagsButton" class="fa-solid fa-tags"></i></a>
-                    <a  onclick="plasButton"  class="m-2"><i class="fa-solid fa-cart-plus"></i></a>
+                     <a   class="m-2"><i onclick="tagsButton()" class="fa-solid fa-tags"></i></a>
+                    <a  onclick="plasButton()"  class="m-2"><i class="fa-solid fa-cart-plus"></i></a>
                     </div>
                     </div>
                     <img src="book/${a.img}" class="card-img-top" alt="...">
