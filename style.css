@@ -349,4 +349,9 @@
 
  .nav-plus i {
      font-size: 20px;
+     color: #000000bd;
+ }
+
+ .main-nav-plus .fa-cart-plus {
+     color: #fff;
  }
