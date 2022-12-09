@@ -18,11 +18,11 @@ const bookList = [
     new Books("book-5", "novelist-5", "5.jpg", "15", "23"),
     new Books("book-6", "novelist-6", "6.jpg", "15", "23"),
     new Books("book-7", "novelist-7", "7.jpg", "15", "23"),
-    new Books("book-7", "novelist-7", "8.jpg", "15", "23"),
-    new Books("book-8", "novelist-5", "9.jpg", "15", "23"),
-    new Books("book-9", "novelist-6", "10.jpg", "15", "23"),
-    new Books("book-11", "novelist-7", "11.jpg", "15", "23"),
-    new Books("book-12", "novelist-7", "12.jpg", "15", "23")
+    new Books("book-7", "novelist-8", "8.jpg", "15", "23"),
+    new Books("book-8", "novelist-9", "9.jpg", "15", "23"),
+    new Books("book-9", "novelist-10", "10.jpg", "15", "23"),
+    new Books("book-11", "novelist-11", "11.jpg", "15", "23"),
+    new Books("book-12", "novelist-12", "12.jpg", "15", "23")
 ];
 
 
@@ -37,7 +37,7 @@ class BookCount {
 };
 
 
-
+let count = -1
 const books = new BookCount(bookList);
 
 listDisplay();
@@ -46,7 +46,7 @@ function listDisplay() {
 
     for (let a of bookList) {
 
-
+        count++
 
 
 
@@ -55,7 +55,7 @@ function listDisplay() {
                      <div class="card-surface w-100">
                      <div class="card-surface-item">
                      <a   class="m-2"><i onclick="tagsButton()" class="fa-solid fa-tags"></i></a>
-                    <a  onclick="plasButton()"  class="m-2"><i class="fa-solid fa-cart-plus"></i></a>
+                    <a   onclick="plasButton(${count})"  class="m-2"><i class="fa-solid fa-cart-plus"></i></a>
                     </div>
                     </div>
                     <img src="book/${a.img}" class="card-img-top" alt="...">
@@ -100,5 +100,9 @@ function listDisplay() {
 };
 
 function tagsButton() {
-    console.log("Aaaa")
+    console.log('Aaaa')
+}
+
+function plasButton(index) {
+    console.log(bookList[index])
 }
