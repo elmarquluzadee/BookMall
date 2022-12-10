@@ -1,6 +1,9 @@
 const row = document.querySelector(".book-section .row");
-const plusTable = document.querySelector("#plusTable");
-const plusPage = document.querySelector(".plusPage");
+
+
+
+
+
 
 class Books {
     constructor(title, name, img, oldprice, newprice) {
@@ -100,28 +103,6 @@ function listDisplay() {
 };
 
 
-
-function tagsButton() {
-    // for (let a of bookList) {
-    //     console.log(a)
-    //     let list = ` <tr class="table-active">
-    //                  <th scope="row">w</th>
-    //                  <td colspan="2" class="table-active"></td>
-    //                  <td></td>
-    //                  </tr>`;
-
-    //     plusTable.insertAdjacentHTML("beforeend", list);
-    // }
-}
-
 function plasButton(index) {
     bookPlus.push(bookList[index]);
-    console.log(bookPlus);
 }
-
-const bookPlus = [];
-
-
-plusPage.addEventListener("click", () => {
-
-})

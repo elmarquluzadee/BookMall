@@ -1,0 +1,11 @@
+{
+  "name": "learning-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "book-app.js",
+  "scripts": {
+    "start": ""
+  },
+  "author": "",
+  "license": "ISC"
+}
