@@ -1,9 +1,4 @@
-const row = document.querySelector(".book-section .row");
-
-
-
-
-
+const rowbook = document.querySelector(".book-section .row");
 
 class Books {
     constructor(title, name, img, oldprice, newprice) {
@@ -14,6 +9,9 @@ class Books {
         this.newprice = newprice;
     }
 };
+
+let bookPlus = [];
+
 
 const bookList = [
     new Books("book-1", "novelist-1", "1.jpg", "15", "23"),
@@ -41,11 +39,28 @@ class BookCount {
     }
 };
 
-
 let count = -1
 const books = new BookCount(bookList);
 
-listDisplay();
+function plasButton(index) {
+    bookPlus.push(bookList[index]);
+    localStorage.setItem("bookPlus", JSON.stringify(bookPlus));
+}
+
+
+const rowPlus = document.querySelector(".plus-section .row");
+
+
+
+
+if (localStorage.getItem("bookPlus") !== null) {
+    bookPlus = JSON.parse(localStorage.getItem("bookPlus"));
+}
+
+console.log(bookPlus);
+
+
+listDisplay()
 
 function listDisplay() {
 
@@ -98,11 +113,6 @@ function listDisplay() {
                    </div>
                    </div>`;
 
-        row.insertAdjacentHTML("beforeend", list);
+        rowbook.insertAdjacentHTML("beforeend", list);
     }
 };
-
-
-function plasButton(index) {
-    bookPlus.push(bookList[index]);
-}
