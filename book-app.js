@@ -12,7 +12,6 @@ class Books {
 
 let bookPlus = [];
 
-
 const bookList = [
     new Books("book-1", "novelist-1", "1.jpg", "15", "23"),
     new Books("book-2", "novelist-2", "2.jpg", "13", "16"),
@@ -46,11 +45,6 @@ function plasButton(index) {
     bookPlus.push(bookList[index]);
     localStorage.setItem("bookPlus", JSON.stringify(bookPlus));
 }
-
-
-const rowPlus = document.querySelector(".plus-section .row");
-
-
 
 
 if (localStorage.getItem("bookPlus") !== null) {
