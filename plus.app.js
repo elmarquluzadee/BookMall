@@ -7,7 +7,7 @@ depoDisplay();
 function depoDisplay() {
     for (let a of bookPlus) {
 
-        let list = `<div class="col">
+        let list = `<div class="col-md-3">
         <div class="card">
         <div class="card-surface w-100">
         <div class="card-surface-item">

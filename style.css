@@ -326,6 +326,9 @@
 
  }
 
+ .plus-section img {
+     height: 50vh;
+ }
 
  .card-surface-item {
      width: 100%;
