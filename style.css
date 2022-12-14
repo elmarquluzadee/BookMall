@@ -358,3 +358,7 @@
  .main-nav-plus .fa-cart-plus {
      color: #fff;
  }
+
+ .fa-cart-plus {
+     cursor: pointer;
+ }
